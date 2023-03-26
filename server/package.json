@@ -1,0 +1,28 @@
+{
+    "name": "anonymous-chat-game-server",
+    "version": "1.0.0",
+    "description": "A server for an anonymous chat guessing game",
+    "main": "server.js",
+    "dependencies": {
+        "express": "^4.17.2",
+        "shortid": "^2.2.16",
+        "socket.io": "^4.4.1"
+    },
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": [
+        "anonymous",
+        "chat",
+        "game",
+        "server",
+        "socket.io",
+        "express"
+    ],
+    "author": "Nikhil Mehta",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
